@@ -1,9 +1,12 @@
 
+print('===============String================')
 # test01
 
 print("sachini")
 
- # test02
+
+print('===============if-else================')
+ # test02 --> if-else
 
 a,b = 1,3
 if a>b :
@@ -11,6 +14,7 @@ if a>b :
 else:
     print("b is greater than or equal to a")
 
+print('===============data type================')
 # test03
 
 mystring = "hallow"
@@ -27,14 +31,32 @@ if isinstance(myfloat,float) and myfloat == 10.5:
 if isinstance(myint,int) and myint == 20:
      print("Int: %i" % myint)
 
-
-  # test04
+print('===============for loop================')
+  # test04 - for loop
 
 fruits= ["apple","mango"]
 for x in fruits:
     print(x)
 
-    # test05
+    # while loop
+print('===============while================')
+
+i = 1
+while i < 6:
+    print(i)
+    i += 1
+
+# array
+print('===============array================')
+
+fruits = ['orange', 'apple', 'mango']
+print(fruits)
+print(type(fruits))
+
+# functions
+print('===============function================')
+
+
 
 def my_function():
     print("Hello from a function")
@@ -51,6 +73,36 @@ def count_num(a,b):
  return (a*b)
 
 print(count_num(10,5))
+
+print('===============type conversions================')
+#type conversions
+int("10")
+float('10.1')
+str(19)
+state=bool("True")
+print(state)
+
+print('===============the type String================')
+#the type String
+my_name='Sachini Apsara'
+my_name.capitalize()
+
+print('===============get keyboard input================')
+#get keyboard input
+my_First_Name=input("Input Your First Name : ")
+print(my_First_Name)
+
+# Taking user inputs for name, age, and weight
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+weight = float(input("Enter your weight: "))
+
+# Printing the inputs
+print("name:", name)
+print("age:", age)
+print("weight:", weight)
+print("=================")
+
 
 
 
